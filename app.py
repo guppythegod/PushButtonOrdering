@@ -1,7 +1,5 @@
 from flask import Flask
-from gpiozero import LED, button
-import firebase_admin
-import os
+from gpiozero import LED, Button
 
 red_led = LED(18)
 green_led = LED(15)
