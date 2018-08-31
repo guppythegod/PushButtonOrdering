@@ -8,6 +8,11 @@ green_led = LED(15)
 
 button = button(14)
 
-if button.is_pressed = red_led.on()
+while True:
+    if button.is_pressed:
+        green_led.on()
+    else:
+        red_led.on()
+        green_led.off()
 
 
