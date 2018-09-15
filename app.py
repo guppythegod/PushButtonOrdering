@@ -8,6 +8,7 @@ button = Button(14)
 
 while True:
     if button.is_pressed:
+        print("order processed")
         green_led.on()
     else:
         red_led.on()
